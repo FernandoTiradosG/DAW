@@ -47,3 +47,13 @@ git commit
 ### Links 
 
 De esta pagina he sacado todo [GitHub Pages](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
+
+### .gitignore
+
+El archivo .gitignore, es un archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto.
+
+Las entradas de este archivo también pueden seguir un patrón coincidente:
+
++ "*" se utiliza como una coincidencia comodín.
++ "/" se usa para ignorar las rutas relativas al archivo .gitignore.
++ "#" es usado para agregar comentario
