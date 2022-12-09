@@ -29,8 +29,17 @@ git add
 git commit
 ```
 
-#### Imagen y gift
+### Imagen y gift
 
 ![John Constantine](https://static.wikia.nocookie.net/marvel_dc/images/c/c2/Constantine_Vol_1_1_Solicit.jpg/revision/latest?cb=20121215230020)
 ![Spiderma](https://i.pinimg.com/originals/46/e6/a3/46e6a36715f8dbde75e200e6f6fa8f7f.gif)
 
+### Listas
+
++ Primero
++ Segundo
++ Tercero
+
+1. Hola
+2. que
+3. tal
