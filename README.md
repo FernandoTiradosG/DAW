@@ -29,6 +29,8 @@ git add
 git commit
 ```
 
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+
 ### Imagen y gift
 
 ![John Constantine](https://static.wikia.nocookie.net/marvel_dc/images/c/c2/Constantine_Vol_1_1_Solicit.jpg/revision/latest?cb=20121215230020)
@@ -58,7 +60,7 @@ Y muchos más aqui en [GitHub Emoges](https://github.com/ikatyang/emoji-cheat-sh
 
 De esta pagina he sacado todo [GitHub Pages](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
 
-### .gitignore
+# .gitignore
 
 El archivo .gitignore, es un archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto.
 
