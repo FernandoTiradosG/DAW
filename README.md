@@ -29,5 +29,7 @@ git add
 git commit
 ```
 
-#### Colores
+#### Imagen y gift
+
+![This is an image](file:///C:/Users/FerTG/OneDrive/Escritorio/Desarrollo%20Web/A%C3%B1o-Uno/Primer-Trimestre/Lenguaje%20de%20marca/Proyecto%20WEB/Imagenes/Nosotros/Fernando.png)
 
