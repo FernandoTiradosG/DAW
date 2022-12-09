@@ -44,6 +44,16 @@ git commit
 2. que
 3. tal
 
+### Emojis
+
+:grinning: :+1: :shipit: :japanese_goblin:
+
+:see_no_evil: :hear_no_evil: :speak_no_evil:
+
+:brain: :ear: :muscle:
+
+Y muchos más aqui en [GitHub Emoges](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
 ### Links 
 
 De esta pagina he sacado todo [GitHub Pages](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
