@@ -28,8 +28,14 @@ git status
 git add
 git commit
 ```
+### Color y fuente de texto
 
-The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+El color de la <span style = "color:red">sangre</span>.
+
+El color de las <span style = "color:green">hojas</span>.
+
+Escribiendo en <span style="font-family:Papyrus; font-size:4em;">Papyrus</span>
+
 
 ### Imagen y gift
 
