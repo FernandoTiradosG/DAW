@@ -2,7 +2,7 @@
 
 Carpeta para el FP de Desarrollo de Aplicaciones Web.
 
-## Pruebas de texto
+### Pruebas de texto
 
 **Esto es un texto en negrita** y __Esto tambien es en negrita__
 
