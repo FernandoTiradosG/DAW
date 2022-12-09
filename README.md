@@ -70,8 +70,11 @@ De esta pagina he sacado todo [GitHub Pages](https://docs.github.com/es/get-star
 
 El archivo .gitignore, es un archivo de texto que le dice a Git qué archivos o carpetas ignorar en un proyecto.
 
-Las entradas de este archivo también pueden seguir un patrón coincidente:
+Las entradas de este archivo también pueden seguir un patrón coincidente, siendo estos algunos ejemplos:
 
-+ "*" se utiliza como una coincidencia comodín.
-+ "/" se usa para ignorar las rutas relativas al archivo .gitignore.
-+ "#" es usado para agregar comentario
++ Cachés de dependencias, como es el caso del contenido de /node_modules o /packages.
++ Código compilado como, por ejemplo, los archivos .o, .pyc y .class.
++ Directorios de salida de compilación, como es el caso de /bin, /out o /target.
++ Archivos generados en tiempo de ejecución como, por ejemplo, .log, .lock o .tmp.
++ Archivos ocultos del sistema, como es el caso de .DS_Store o Thumbs.db.
++ Archivos personales de configuración de IDE como, por ejemplo, .idea/workspace.xml.
