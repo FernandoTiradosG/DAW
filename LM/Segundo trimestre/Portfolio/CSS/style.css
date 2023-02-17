@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    
+  }
+  
+  #grid { 
+    height: 100vh;
+    transition: 500ms;
+    display: grid;
+    grid-template-columns: 50% 12.5% 12.5% 12.5% 12.5%;
+    gap: 3px;
+    background: rgb(145, 185, 205);
+    color: #464646;
+  }
+  
+  :where(.primero, .segundo, .tercero, .cuarto, .quinto,) {
+    background: rgb(255, 241, 220);
+    transition: 300ms;
+  }
+  
+  :where(.primero, .segundo, .tercero, .cuarto, .quinto,):hover {
+    background: rgb(145, 185, 205);
+  }
+  
+  #grid:has(.primero:hover) {
+    grid-template-columns: 70% 10% 10% 10% 10%;
+  }
+  
+  #grid:has(.segundo:hover) {
+    grid-template-columns: 30% 40% 10% 10% 10%;
+  }
+  #grid:has(.tercero:hover) {
+    grid-template-columns: 30% 10% 40% 10% 10%;
+  }
+  
+  #grid:has(.cuarto:hover) {
+    grid-template-columns: 30% 10% 10% 40% 10%;
+  }
+  
+  #grid:has(.quinto:hover) {
+    grid-template-columns: 30% 10% 10% 10% 40%;
+  }
+
+  .redes{
+    display: grid;
+    grid-template-columns: 35% 10% 10% 10% 35%;
+    gap: 5px;
+    height: 50%;
+  }
+  
+  div{
+    text-align: center;
+  }
+
+  img{
+    margin-top: 50px;
+  }
