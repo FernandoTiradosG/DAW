@@ -26,6 +26,6 @@ public class Moto extends Vehiculo implements Imoto {
 
     @Override
     public String toString(){
-        return "Moto de la marca " + super.marca + " con matricula " + this.matricula;
+        return "Moto de la marca con matricula ";
     }
 }

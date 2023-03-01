@@ -1,33 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="http://unpkg.com/aos@2.3.1/dist/aos.css">
     <title>Fernando Tirados Gonzalez</title>
 </head>
+
 <body>
     <div id="grid">
         <div class="primero">
-            <img id="yo" src="C:\Users\FerTG\OneDrive\Escritorio\DAW\LM\Segundo trimestre\Portfolio\Imagenes\Fernando.png">
-            <h1>Fernando Tirados Gonzalez</h1>
-            <h2>Desarrollador web y comunicador audiovisual</h2>
-            <button name="button">Curriculum</button>
-            <div class="redes">
-                <div><img src="C:\Users\FerTG\OneDrive\Escritorio\DAW\LM\Segundo trimestre\Portfolio\Imagenes\Github.png"></div>
-                <div></div>
-                <div><img src="C:\Users\FerTG\OneDrive\Escritorio\DAW\LM\Segundo trimestre\Portfolio\Imagenes\Linkedin.png" alt=""></div>
-                <div></div>
-                <div><img src="C:\Users\FerTG\OneDrive\Escritorio\DAW\LM\Segundo trimestre\Portfolio\Imagenes\Youtube.png"></div>
+            <div data-aos="fade-down" data-aos-duration="1000"><img id="yo" src="Imagenes/Fernando2.png"></div>
+            <div data-aos="fade-left" data-aos-duration="1000">
+                <h1>Fernando Tirados Gonzalez</h1>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h2>Desarrollador web y comunicador audiovisual</h2>
+            </div>
+            <div><a class="button tipo1" href="#" data-aos="flip-right" data-aos-duration="1000">Curriculum</a></div>
+            <div class="redes" data-aos="fade-up" data-aos-duration="1000">
+                <div class="icono">
+                    <svg heigth="80" width="80">
+                        <circle cx="40" cy="40" r=35 stroke="#464646" stroke-width="4" fill="none"></circle>
+                    </svg>
+                    <img src=Imagenes/Github.png>
+                </div>
+                <div class="icono">
+                    <svg heigth="80" width="80">
+                        <circle cx="40" cy="40" r=35 stroke="#464646" stroke-width="4" fill="none"></circle>
+                    </svg>
+                    <img src="Imagenes/Linkedin.png">
+                </div>
+                <div class="icono">
+                    <svg heigth="80" width="80">
+                        <circle cx="40" cy="40" r=35 stroke="#464646" stroke-width="4" fill="none"></circle>
+                    </svg>
+                    <img src="Imagenes/Youtube.png">
+                </div>
             </div>
         </div>
-        <div class="segundo">
-            <div class="contenid2">
-                <p>Perfil profesiona</p>
+        <div class="segundo" data-aos="fade-down" data-aos-duration="2000">
+            <div class="contenido2">
+                <div>
+                    <h3>Perfil profesional</h3>
+                </div>
+                <div class="Dev">
+                    <div class="imagen" data-aos="fade-left"><img src="Imagenes/programación.png"></div>
+                    <div class="texto" data-aos="fade-right">
+                        <p>Desarrollador de aplicaciones web, con el objetivo de ser Full Stack trabajando tanto en
+                            Front End como en Back End</p>
+                    </div>
+                </div>
+                <div class="Com">
+                    <div class="texto" data-aos="fade-left">
+                        <p>Desde cine hasta televisión. Todo lo que sea contar una historia de forma audiovisual también
+                            es una zona de confort, estando especializado en iluminacion y manejo de cámara</p>
+                    </div>
+                    <div class="imagen" data-aos="fade-right"><img src="Imagenes/película.png"></div>
+                </div>
             </div>
         </div>
-        <div class="tercero">Experiencia laboral</div>
-        <div class="cuarto">Formacion academica/complmentaria</div>
-        <div class="quinto">Competencias/habilidades</div>
+        <div class="tercero" data-aos="fade-up" data-aos-duration="2000">
+            <div class="contenido3">
+                <div>
+                    <h3>Formacion academica/complmentaria</h3>
+                </div>
+                <div class="formacion">
+                    <figure class="lugares">
+                        <img src="Imagenes/UniversidadAlcala.png" height="300px">
+                        <figcaption>
+                            <h5>Universidad Alcalá de Henares</h5>
+                            <p>Graduado en comunicación Audiovisual</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lugares">
+                        <img src="Imagenes/ADAITS.png" height="300px">
+                        <figcaption>
+                            <h5>A.D.A I.T.S</h5>
+                            <p>Desarrollo de aplicaciones web</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h3>Experiencia laboral</h3>
+                </div>
+                <div class="formacion">
+                    <div class="view">
+                        <img src="Imagenes/audiovisual.jpg">
+                        <div class="mask">
+                            <h2>Audiovisual</h2>
+                            <p>Operador de cámara, Jefe de eléctricos, Director de iluminación, técnico de sonido y realizador</p>
+                        </div>
+                    </div>
+                    <div class="view">
+                        <img src="Imagenes/Aeropuerto.jpg">
+                        <div class="mask">
+                            <h2>Agente de pasaje</h2>
+                            <p>Encargado de facturación de maletas y de embarque de pasajeros</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cuarto" data-aos="fade-down" data-aos-duration="2000">
+            <div class="contenido4">
+                <div class="contenedor" id="problema">
+                    <div><h3>Habilidades</h3></div>
+                    <div class="carta">
+                        <div class="porcentaje" style="--clr:#0080cf;--num:85;">
+                            <div class="punto"></div>
+                            <svg>
+                                <circle cy="70" cx="70" r="70"></circle>
+                                <circle cy="70" cx="70" r="70"></circle>
+                            </svg>
+                            <div class="numero">
+                                <img src="Imagenes/photoshop.png">
+                                <p>85<span>%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <div class="porcentaje" style="--clr:#ad00cf;--num:90;">
+                            <div class="punto"></div>
+                            <svg>
+                                <circle cy="70" cx="70" r="70"></circle>
+                                <circle cy="70" cx="70" r="70"></circle>
+                            </svg>
+                            <div class="numero">
+                                <img src="Imagenes/premiere.png">
+                                <p>90<span>%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <div class="porcentaje" style="--clr:#cf3b00;--num:75;">
+                            <div class="punto"></div>
+                            <svg>
+                                <circle cy="70" cx="70" r="70"></circle>
+                                <circle cy="70" cx="70" r="70"></circle>
+                            </svg>
+                            <div class="numero">
+                                <img src="Imagenes/java.png" id="java">
+                                <p>75<span>%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carta">
+                        <div class="porcentaje" style="--clr:#cfa900;--num:70;">
+                            <div class="punto"></div>
+                            <svg>
+                                <circle cy="70" cx="70" r="70"></circle>
+                                <circle cy="70" cx="70" r="70"></circle>
+                            </svg>
+                            <div class="numero">
+                                <img src="Imagenes/html.png">
+                                <p>70<span>%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script src="http://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
